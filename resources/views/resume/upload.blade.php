@@ -86,7 +86,6 @@
     <table>
         <tr>
             <th>Name</th>
-            <th>Age</th>
             <th>Location</th>
             <th>Email</th>
             <th>Phone Number</th>
@@ -115,7 +114,6 @@
             @endphp
             <tr>
                 <td>{{ checkNull($resume['name']) }}</td>
-                <td>{{ checkNull($resume['age']) }}</td>
                 <td>{{ checkNull($resume['location']) }}</td>
                 <td>{{ checkNull($resume['email']) }}</td>
                 <td>{{ checkNull($resume['phone_number']) }}</td> 
